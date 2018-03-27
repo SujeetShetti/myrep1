@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Compilation') {
       steps {
-        bat 'echo "Compilation process""'
+        bat 'echo "Compilation process"'
       }
     }
     stage('UnitTesting') {
